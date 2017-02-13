@@ -50,6 +50,9 @@
     <Compile Include="Installator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetupDetails\FightSetup.cs" />
+    <Compile Include="SetupDetails\FishSetup.cs" />
+    <Compile Include="SetupDetails\GameSetup.cs" />
     <Compile Include="States\HelloState.cs" />
     <Compile Include="States\InstallState.cs" />
     <Compile Include="States\IState.cs" />
