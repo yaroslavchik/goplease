@@ -41,11 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameAdditions\AdditionBase.cs" />
+    <Compile Include="GameAdditions\BackgroundMusic.cs" />
+    <Compile Include="GameAdditions\Russifier.cs" />
     <Compile Include="Game\BasicGame.cs" />
     <Compile Include="Game\FightClub.cs" />
     <Compile Include="Game\Fishing.cs" />
+    <Compile Include="Installator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\HelloState.cs" />
+    <Compile Include="States\InstallState.cs" />
+    <Compile Include="States\IState.cs" />
+    <Compile Include="States\LicenseState.cs" />
+    <Compile Include="States\WayState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
